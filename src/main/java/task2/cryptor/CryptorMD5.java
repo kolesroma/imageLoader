@@ -1,4 +1,4 @@
-package task2;
+package task2.crypt;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

@@ -1,5 +1,8 @@
 package task2;
 
+import task2.crypt.Cryptor;
+import task2.crypt.CryptorMD5;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
