@@ -1,4 +1,4 @@
-package task2;
+package task2.finder;
 
 import java.io.File;
 import java.util.Set;

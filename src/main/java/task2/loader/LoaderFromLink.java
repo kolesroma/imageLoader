@@ -1,7 +1,7 @@
-package task2;
+package task2.loader;
 
-import task2.crypt.Cryptor;
-import task2.crypt.CryptorMD5;
+import task2.cryptor.Cryptor;
+import task2.cryptor.CryptorMD5;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -7,12 +7,12 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class SingleService implements LoadPictureService {
+public class SingleThreadPictureService implements LoadPictureService {
     private final String rootFolder;
     private final Finder finder;
     private final Loader loader;
 
-    public SingleService(Finder finder, Loader loader, String rootFolder) {
+    public SingleThreadPictureService(Finder finder, Loader loader, String rootFolder) {
         this.finder = finder;
         this.loader = loader;
         this.rootFolder = rootFolder;

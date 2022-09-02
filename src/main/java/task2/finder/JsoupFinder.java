@@ -1,4 +1,4 @@
-package task2;
+package task2.finder;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
